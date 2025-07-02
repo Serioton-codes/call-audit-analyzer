@@ -871,7 +871,7 @@ else:  # User is logged in
                         if st.button("🗑️ Delete Audit", key=f"del_{audit_id}"):
                             ok, msg = delete_audit(audit_id, st.session_state.user['id'])
                             st.toast(msg)
-                            st.experimental_rerun()
+                            st.rerun()
 
                     with col2:
                         st.write("##### Parameter Scores")
