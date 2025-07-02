@@ -1,0 +1,16 @@
+# Streamlit front‑end
+streamlit>=1.34.0
+
+# Core data / utility stack
+pandas>=2.2
+numpy>=1.28
+requests>=2.31        # future API calls
+
+# Excel export
+openpyxl>=3.1         # pandas ExcelWriter engine
+
+# Speech‑to‑text pipeline
+openai-whisper>=20250625   # official Whisper on PyPI
+torch>=2.3
+tqdm>=4.66
+regex>=2025.5
